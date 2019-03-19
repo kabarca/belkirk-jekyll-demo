@@ -72,10 +72,14 @@ fields:
 - type: image_gallery
   name: partners
   label: Partner Logos
+  default:
+  - "/uploads/2017/11/13/biotech.png"
+  - "/uploads/2017/11/13/stem.png"
 - type: boolean
   name: show_staff
   label: Show Staff?
   description: Enables a staff section that lists each person in the People collection
+  default: true
 - name: layout
   label: Layout
   type: text
