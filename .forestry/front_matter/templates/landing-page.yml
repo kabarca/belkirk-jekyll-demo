@@ -1,6 +1,7 @@
 ---
-label: landing-page
+label: Homepage
 hide_body: false
+display_field: heading
 fields:
 - name: title
   label: Title
@@ -23,6 +24,7 @@ fields:
   description: 'Dimensions: 1200px by 580px'
   config:
     maxSize: '2'
+  default: "/uploads/2018/02/17/bridge3.jpg"
 - type: field_group
   name: hero_button
   label: Hero Button
@@ -41,6 +43,7 @@ fields:
     required: false
     schema:
       format: markdown
+  default: This is just text that goes in the description.
 - name: services
   label: Services
   type: field_group_list
