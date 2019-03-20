@@ -13,6 +13,10 @@ services:
 - heading: Service 1
   description: This is our service 1
   icon: ''
+show_news: false
+partners:
+- "/uploads/2017/11/13/innovation-pei-logo.png"
+- "/uploads/2017/11/13/health.png"
 menu:
   footer:
     identifier: _about
